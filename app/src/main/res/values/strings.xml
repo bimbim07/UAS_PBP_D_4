@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ONE HOTE</string>
+
+    <string-array name="spinnerkota">
+        <item>Bandung, Indonesia</item>
+        <item>Yogyakarta, Indonesia</item>
+        <item>Bali, Indonesia</item>
+        <item>Jakarta, Indonesia</item>
+        <item>Bandung, Indonesia</item>
+        <item>Surabaya, Indonesia</item>
+    </string-array>
+
+    <string-array name="spinnerDurasi">
+        <item>1 Malam</item>
+        <item>2 Malam</item>
+        <item>3 Malam</item>
+        <item>4 Malam</item>
+        <item>5 Malam</item>
+        <item>6 Malam</item>
+        <item>7 Malam</item>
+    </string-array>
+
+    <string-array name="spinnerTamu">
+        <item>1 Dewasa, 0 Anak-anak, 1 Kamar</item>
+        <item>2 Dewasa, 0 Anak-anak, 1 Kamar</item>
+    </string-array>
+
+    <string name="username_error">Masukkan username anda</string>
+    <string name="password_error">Please enter a password</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiYmltYmltMDciLCJhIjoiY2t1bDcxejNrMWlrajJ3bXhoa20wcG9zeCJ9.pMWqyTW4-u0_SepVnA1Oaw</string>
+    <string name="user_location_permission_explantion">Apakah diperbolehkan?</string>
+    <string name="user_location_permission_not_granted">Ditolak Kalian Semua</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

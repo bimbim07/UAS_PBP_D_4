@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/btnProfile"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="Profile"/>
+    <item
+        android:id="@+id/btnCari"
+        android:orderInCategory="2"
+        android:icon="@drawable/ic_baseline_location_city_24"
+        android:title="Pemesanan"/>
+    <item
+        android:id="@+id/btnLogout"
+        android:orderInCategory="3"
+        android:icon="@drawable/ic_baseline_logout_24"
+        android:title="Logut"/>
+</menu>

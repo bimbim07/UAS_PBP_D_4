@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Payment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="10dp"
+            android:text="PAYMENT"
+            android:textAlignment="center"
+            android:textColor="#BD7F23"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="10dp"
+            android:text="Detail Pembayaran"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp">
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <LinearLayout
+                   android:id="@+id/Fullname"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_marginTop="10dp">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Nama"
+                       android:layout_weight="1">
+                   </TextView>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/edFullname"
+                       android:layout_weight="1"
+                       android:textAlignment="textEnd">
+                   </TextView>
+               </LinearLayout>
+
+               <LinearLayout
+                   android:id="@+id/Username"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_below="@+id/Fullname"
+                   android:layout_marginTop="10dp">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Email"
+                       android:layout_weight="1">
+                   </TextView>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/edUsername"
+                       android:layout_weight="1"
+                       android:textAlignment="textEnd">
+                   </TextView>
+               </LinearLayout>
+
+               <LinearLayout
+                   android:id="@+id/tanggal"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_below="@+id/Username"
+                   android:layout_marginTop="20dp">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Tanggal"
+                       android:layout_weight="1">
+                   </TextView>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/tanggal_pesan"
+                       android:layout_weight="1"
+                       android:textAlignment="textEnd">
+                   </TextView>
+               </LinearLayout>
+
+               <LinearLayout
+                   android:id="@+id/harga"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_below="@+id/tanggal"
+                   android:layout_marginTop="20dp">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Harga/Hari"
+                       android:layout_weight="1">
+                   </TextView>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/btnHarga"
+                       android:layout_weight="1"
+                       android:textAlignment="textEnd">
+                   </TextView>
+               </LinearLayout>
+
+               <LinearLayout
+                   android:id="@+id/total"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_below="@+id/harga"
+                   android:layout_marginTop="50dp">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Total"
+                       android:layout_weight="1"
+                       android:textStyle="bold"
+                       android:textColor="@color/black">
+                   </TextView>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="test"
+                       android:layout_weight="1"
+                       android:textAlignment="textEnd">
+                   </TextView>
+               </LinearLayout>
+           </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

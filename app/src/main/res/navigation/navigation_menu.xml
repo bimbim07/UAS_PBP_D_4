@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_menu"
+    app:startDestination="@id/searchHotel">
+    <activity
+        android:id="@+id/halamanUtama2"
+        android:name="com.example.uts_pbp_d_kelompok_4.HalamanUtama"
+        android:label="activity_halaman_utama"
+        tools:layout="@layout/activity_halaman_utama" />
+    <activity
+        android:id="@+id/searchHotel"
+        android:name="com.example.uts_pbp_d_kelompok_4.SearchHotel"
+        android:label="activity_search_hotel"
+        tools:layout="@layout/activity_search_hotel" />
+</navigation>
